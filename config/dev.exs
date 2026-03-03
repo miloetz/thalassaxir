@@ -57,13 +57,9 @@ config :thalassaxir, ThalassaxirWeb.Endpoint,
   live_reload: [
     web_console_logger: true,
     patterns: [
-      # Static assets, except user uploads
-      ~r"priv/static/(?!uploads/).*\.(js|css|png|jpeg|jpg|gif|svg)$"E,
-      # Gettext translations
-      ~r"priv/gettext/.*\.po$"E,
-      # Router, Controllers, LiveViews and LiveComponents
-      ~r"lib/thalassaxir_web/router\.ex$"E,
-      ~r"lib/thalassaxir_web/(controllers|live|components)/.*\.(ex|heex)$"E
+      ~r"priv/static/(?!uploads/).*(js|css|png|jpeg|jpg|gif|svg)$",
+      ~r"priv/gettext/.*.po$",
+      ~r"lib/thalassaxir_web/(controllers|live|components)/.*(ex|heex)$"
     ]
   ]
 

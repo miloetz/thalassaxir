@@ -8,7 +8,6 @@
 import Config
 
 config :thalassaxir,
-  ecto_repos: [Thalassaxir.Repo],
   generators: [timestamp_type: :utc_datetime]
 
 # Configure the endpoint

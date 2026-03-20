@@ -2,8 +2,6 @@
 
 A real-time ocean simulation that makes Elixir's concurrency and fault-tolerance visible.
 
-Each wave, particle, and current in the ocean is a live Elixir process — thousands of them, running simultaneously on the BEAM. A bioluminescent deep-sea creature inhabits the ocean, its body is the supervisor tree. Its tentacles are supervision branches, its cells are worker processes. Kill a process and watch a cell go dark. Kill a branch and a tentacle goes limp. The creature heals itself — because that's what supervisors do.
-
 Built with Elixir, Phoenix Channels, and Three.js.
 
 **The ocean is the BEAM. The creature is the system. It never dies.**

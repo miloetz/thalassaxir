@@ -20,5 +20,5 @@ primary_region = 'iad'
   cpus = 1
 
 [env]
-  PHX_HOST = "thalassaxir.fly.dev"
+  PHX_HOST = "thalassaxir.com"
   PORT = "4000"

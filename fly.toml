@@ -3,9 +3,6 @@ primary_region = 'iad'
 
 [build]
 
-[deploy]
-  # No release command - app doesn't use a database
-
 [http_service]
   internal_port = 4000
   force_https = true
